@@ -1,0 +1,119 @@
+/*Portfolio*/
+.our-work-section{
+    padding-top: 94px;
+    padding-bottom: 50px;
+    }
+    .img{
+    display: block;
+    }
+    
+    .all-text{
+    position: absolute;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    width: 370px;
+    height: 294px;
+    color: $color-white;
+    background: rgba(33, 150, 243, 0.9);
+    top: 100%;
+    left: 0;
+    transition: all 250ms $cubic;
+    }
+    
+    .all-text-text{
+    padding-top: 63px;
+    padding-bottom: 63px;
+    padding-left: 24px;
+    padding-right: 24px;
+    }
+    .all-work-link-cont:hover .all-text,
+    .all-work-link-cont:focus .all-text{
+    top: 0%;
+    }
+    
+    .all-work-img-text{
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    }
+    
+    .our-work-list{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .our-work-link:not(:last-child){
+    margin-right: 8px;
+    }
+    
+    .button-our-work{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    color: #212121;
+    border-radius: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    transition: color 250ms $cubic;
+    transition: background-color 250ms $cubic;
+    &:hover,
+    &:focus {
+    background-color: $color-accent ;
+    color: $color-white;
+    }
+    }
+    
+    
+    
+    .all-work-section{
+    padding-bottom: 94px;
+    
+    }
+    .all-work-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px; 
+    }
+    
+    .all-work-link:not(:nth-child(3n+3)){
+    margin-right: 30px;
+    }
+    
+    .all-work-link:nth-last-child(n+4){
+    margin-bottom: 30px;}
+    
+    
+    .all-work-link-cont{
+    border: 1px solid #EEEEEE;
+    transition: box-shadow 250ms $cubic;
+    &:hover,
+    &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+    }
+
+    
+    .all-work{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin-bottom: 4px;
+    padding-left: 24px;
+    }
+    
+    .all-project{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #757575;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    }
+        

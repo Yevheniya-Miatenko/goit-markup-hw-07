@@ -1,0 +1,93 @@
+/*main Приоритеты компании, Виды деятельности*/
+.activities-text{
+justify-content: center;
+color: $color-white;
+text-align: center;
+width: 370px;
+height: 70px;
+padding-top: 27px;
+padding-bottom: 27px;
+position: absolute;
+background: rgba(47, 48, 58, 0.8);
+bottom: 0%;
+}
+
+
+.prioriti-section{
+padding-top: 94px;
+padding-bottom: 94px;
+}
+.activities-section{
+padding-bottom: 94px;
+}
+
+.prioriti-img-list{
+display: flex;
+justify-content: center;
+margin-bottom: 27px;
+}
+.prioriti-img-cont{
+display: flex;
+justify-content: center;
+text-align:center;
+width: 270px;
+height: 120px;
+background: #F5F4FA;
+border-radius: 4px;
+display: flex;
+justify-content : center;
+align-items :center;
+}
+
+.prioriti-img-link:not(:last-child) {
+margin-right: 30px;
+}
+
+.prioriti-img-item{
+width: 70px;
+height: 70px;
+display: flex;
+}
+
+.prioriti-list{
+display: flex;
+justify-content: center;
+}
+
+.prioriti-link:not(:last-child){
+margin-right: 30px;
+}
+
+.activities-list{
+display: flex;
+justify-content: center;
+}
+
+.activities-link{
+position: relative;
+&:not(:last-child) {
+    margin-right: 30px;
+}    
+}
+
+
+.heading3{
+text-transform: uppercase;
+color: #212121;
+}
+
+.prioriti{
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+}
+
+.heading2{
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+color: #212121;
+margin-bottom: 50px;
+
+
+}
